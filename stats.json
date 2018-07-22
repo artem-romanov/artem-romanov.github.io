@@ -1,16 +1,16 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-9090266c49bd669bd1d8.js",
-      "component---src-pages-index-js-9090266c49bd669bd1d8.js.map"
+      "component---src-pages-index-js-e3bb4e60efd97f3181f4.js",
+      "component---src-pages-index-js-e3bb4e60efd97f3181f4.js.map"
     ],
     "path---": [
       "path----cac63ff5c1b42581353c.js",
       "path----cac63ff5c1b42581353c.js.map"
     ],
     "component---src-pages-contact-js": [
-      "component---src-pages-contact-js-53f66fb6c8e2b2f23868.js",
-      "component---src-pages-contact-js-53f66fb6c8e2b2f23868.js.map"
+      "component---src-pages-contact-js-648cac1cea35e6016aa4.js",
+      "component---src-pages-contact-js-648cac1cea35e6016aa4.js.map"
     ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-901ccc061067a90e689b.js",
@@ -51,8 +51,8 @@
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-skills-js": [
-      "component---src-pages-skills-js-c9ef57df41ff8a3d03a0.js",
-      "component---src-pages-skills-js-c9ef57df41ff8a3d03a0.js.map"
+      "component---src-pages-skills-js-2730e7428b5518222767.js",
+      "component---src-pages-skills-js-2730e7428b5518222767.js.map"
     ]
   }
 }
