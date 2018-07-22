@@ -3,12 +3,16 @@ import PropTypes from 'prop-types';
 import { withPrefix } from 'gatsby-link';
 import styled from 'styled-components';
 
+const iconSize = '30px';
+
 const Container = styled.div`
   border-radius: 100px;
   padding: 20px;
   background-color: lightgray;
   transition: 0.2s ease-in;
   margin-right: 10px;
+  height: ${iconSize};
+  width: ${iconSize};
   
   &:hover {
     background-color: #A3D5D7;
@@ -17,8 +21,8 @@ const Container = styled.div`
 `;
 
 const Icon = styled.img`
-  width: 30px;
-  height: 30px;
+  width: ${iconSize};
+  height: ${iconSize};
 `;
 
 const ContactInfo = ({
