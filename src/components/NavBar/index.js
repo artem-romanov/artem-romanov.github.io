@@ -4,6 +4,8 @@ import styled from 'styled-components';
 import LinkItem from './item';
 import siteMap from './sitemap';
 
+import media from '../../utils/media-queries';
+
 const Navigation = styled.nav`
   position: fixed;
   bottom: 0;
@@ -12,8 +14,14 @@ const Navigation = styled.nav`
   display: flex;
   justify-content: space-around;
   background-color: #A3D5D7;
-  padding: 5px 0;
+  padding: 5px 50px;
   box-shadow: 0px 8px 7px 9px rgba(0, 0, 0, 0.2);
+
+  ${media.phone`
+    padding-right: 0;
+    padding-left: 0;
+  `}
+
 `;
 
 export default () => (
