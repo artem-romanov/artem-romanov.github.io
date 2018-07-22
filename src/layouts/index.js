@@ -1,38 +1,44 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
+import React from 'react';
+import PropTypes from 'prop-types';
 
-import Header from '../components/header'
-import './index.css'
+import styled from 'styled-components';
+
+import Navbar from '../components/NavBar';
+
+import media from '../utils/media-queries';
+
+import 'normalize.css';
+import './index.css';
+
+const Container = styled.section`
+  max-width: 925px;
+  margin: 0 auto;
+  padding: 30px;
+  padding-bottom: 70px;
+  min-height: 100%;
+  overflow: auto;
+  box-sizing: border-box;
+  height: 1px;
+  ${media.phone`
+    padding-left: 20px;
+    padding-right: 20px;
+  `}
+`;
 
 const Layout = ({ children, data }) => (
   <div>
-    <Helmet
-      title={data.site.siteMetadata.title}
-      meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
-      ]}
-    />
-    <Header siteTitle={data.site.siteMetadata.title} />
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
-      }}
-    >
+    <Container>
       {children()}
-    </div>
+    </Container>
+    <Navbar />
   </div>
-)
+);
 
 Layout.propTypes = {
-  children: PropTypes.func,
-}
+  children: PropTypes.func.isRequired,
+};
 
-export default Layout
+export default Layout;
 
 export const query = graphql`
   query SiteTitleQuery {
@@ -42,4 +48,4 @@ export const query = graphql`
       }
     }
   }
-`
+`;
