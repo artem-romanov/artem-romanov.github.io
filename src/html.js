@@ -27,13 +27,14 @@ module.exports = class HTML extends React.Component {
     return (
       <html {...this.props.htmlAttributes}>
         <head>
+          <title>Homepage</title>
           <meta charSet="utf-8" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
           <meta
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
-          <link href="https://fonts.googleapis.com/css?family=Exo+2|Philosopher|Play" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css?family=Exo+2|Fira+Sans|Play" rel="stylesheet" />
           {this.props.headComponents}
           {css}
         </head>
