@@ -27,7 +27,7 @@ const ContactInfoContainer = styled.div`
 const ContactPage = () => (
   <Container>
     <ContactInfo>
-      <Header>My contacts</Header>
+      <Header>My contacts 🖊️</Header>
       <Paragraph>
         I always glad to meet new people.
       </Paragraph>

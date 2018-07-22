@@ -1,11 +1,10 @@
 import React from 'react';
 import Link from 'gatsby-link';
+import styled from 'styled-components';
 
 import Paragraph from '../components/paragraph';
 import StyledText from '../components/decoratedSpan';
 import Header from '../components/header';
-
-import styled from 'styled-components';
 
 import media from '../utils/media-queries';
 
@@ -47,6 +46,8 @@ const Photo = styled.img`
   min-width: 200px;
   max-height: 100%;
   object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.2);
 `;
 
 const AboutText = styled.div`
@@ -62,9 +63,9 @@ const IndexPage = () => (
         />
       </PhotoContainer>
       <AboutText>
-        <Header>Hello, traveller!</Header>
+        <Header>Hello, traveller 🎉</Header>
         <Paragraph>
-          My name is <StyledText red>Romanov Artem</StyledText> and I am the JS developer.
+          My name is <StyledText red>Romanov Artem</StyledText> and I am the fullstack Javascript developer.
         </Paragraph>
         <Paragraph>
           Currently I live in Russia, Taganrog. Here I create and maintain frontend and backend stuff.
@@ -74,6 +75,7 @@ const IndexPage = () => (
         </Paragraph>
         <Paragraph>
           <Link to="/skills/">Here</Link> you can check my skills and experience.
+          And <Link to="/skills/">here</Link> my contact info.
         </Paragraph>
       </AboutText>
     </About>
