@@ -3,7 +3,12 @@
   "rules": {
     "strict": 0,
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "react/jsx-one-expression-per-line": false
+    "react/jsx-one-expression-per-line": false,
+    "react/display-name": [false],
+    "semi": 2
+  },
+  "globals": {
+    "graphql": false
   },
   "extends": [
     "airbnb",
