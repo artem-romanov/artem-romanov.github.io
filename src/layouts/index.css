@@ -4,6 +4,7 @@ body,
 div[data-reactroot] {
   height: 1px;
   overflow: auto;
+  -webkit-overflow-scrolling: touch;
   min-height: 100%;
 }
 
