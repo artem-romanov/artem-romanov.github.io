@@ -35,7 +35,7 @@ const PhotoContainer = styled.div`
   margin-right: 30px;
   ${media.phone`
     margin-right: 0;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     width: 250px;
     align-self: center;
   `}

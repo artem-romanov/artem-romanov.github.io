@@ -11,7 +11,8 @@ const SkillsPage = () => (
   <div>
     <Header>My experience 🧠</Header>
     <Paragraph>
-      I&apos;ve started developing applications for buisness at the beginning of 2017, so my experience is about {getExperienceTime()}.
+      I&apos;ve started developing applications for buisness at the beginning of <DecorateText red>2017</DecorateText>,
+      so my experience is about <DecorateText red>{getExperienceTime()}</DecorateText>.
     </Paragraph>
     <Paragraph>
       I prefer to work with frontend, but backend never was a problem.

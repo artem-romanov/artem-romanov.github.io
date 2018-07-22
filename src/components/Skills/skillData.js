@@ -4,7 +4,8 @@ export default {
     {
       title: 'Frontend',
       items: [
-        'HTML5 / CSS3 / JavaScript 💻',
+        'HTML5 / CSS3',
+        'JavaScript (ES2015+) / JQuery 💻',
         'React / Redux',
         'Angular 2+ / RxJs',
         'VueJs / Vuex'
