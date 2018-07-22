@@ -17,7 +17,7 @@ const Container = styled.section`
 
 const SkillsPage = () => (
   <Container>
-    <Header>My experience 🧠</Header>
+    <Header>My experience 👨‍💻</Header>
     <Paragraph>
       I&apos;ve started developing applications for buisness at the beginning of <DecorateText red>2017</DecorateText>,
       so my experience is about <DecorateText red>{getExperienceTime()}</DecorateText>.
