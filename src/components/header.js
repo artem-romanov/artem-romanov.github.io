@@ -6,4 +6,5 @@ export default styled.h1`
   color: black;
   color: #0c6156;
   margin-top: 0;
+  margin-bottom: 0;
 `;
