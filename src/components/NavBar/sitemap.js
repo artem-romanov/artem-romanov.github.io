@@ -7,8 +7,8 @@ const siteMap = [
   },
   {
     id: 2,
-    link: '/blog',
-    title: 'Blog',
+    link: '/skills',
+    title: 'Skills',
     emoji: '🤔',
   },
   {

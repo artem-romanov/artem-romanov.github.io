@@ -13,6 +13,7 @@ const Navigation = styled.nav`
   justify-content: space-around;
   background-color: #A3D5D7;
   padding: 5px 0;
+  box-shadow: 0px 8px 7px 9px rgba(0, 0, 0, 0.2);
 `;
 
 export default () => (
