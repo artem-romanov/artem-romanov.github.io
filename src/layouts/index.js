@@ -17,7 +17,6 @@ const Container = styled.section`
   padding-bottom: 70px;
   min-height: 100%;
   box-sizing: border-box;
-  height: 1px;
   ${media.phone`
     padding-left: 20px;
     padding-right: 20px;
