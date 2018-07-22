@@ -12,14 +12,16 @@ const Navigation = styled.nav`
   left: 0;
   right: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background-color: #A3D5D7;
   padding: 5px 50px;
+  padding-top: 10px;
   box-shadow: 0px 8px 7px 9px rgba(0, 0, 0, 0.2);
 
   ${media.phone`
     padding-right: 0;
     padding-left: 0;
+    justify-content: space-around;
   `}
 
 `;
