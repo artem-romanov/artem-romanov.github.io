@@ -75,7 +75,7 @@ const IndexPage = () => (
         </Paragraph>
         <Paragraph>
           <Link to="/skills/">Here</Link> you can check my skills and experience.
-          And <Link to="/skills/">here</Link> my contact info.
+          And <Link to="/contact/">here</Link> my contact info.
         </Paragraph>
       </AboutText>
     </About>
