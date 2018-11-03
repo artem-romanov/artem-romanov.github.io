@@ -35,6 +35,7 @@ module.exports = class HTML extends React.Component {
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
           <meta name="yandex-verification" content="bb1e5d3f2854704b" />
+          <meta name="google-site-verification" content="TAWNiBzKkunUG-EBclM0grSkWrsXbWu5Nkj79PTE44Q" />
           <link href="https://fonts.googleapis.com/css?family=Exo+2|Fira+Sans|Play" rel="stylesheet" />
           {this.props.headComponents}
           {css}
